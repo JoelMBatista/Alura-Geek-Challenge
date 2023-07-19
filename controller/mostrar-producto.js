@@ -64,5 +64,5 @@ logoutButton.addEventListener('click', function() {
   sessionStorage.removeItem('isLoggedIn');
   
   // Redirigir a la página de inicio de sesión
-  window.location.replace('../screen/index.html');
+  window.location.replace('../index.html');
 });
