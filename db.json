@@ -1,0 +1,52 @@
+{
+  "producto": [
+    {
+      "name": "The Flash",
+      "imageUrl": "https://www.ociostock.com/productos/imagenes/img_315873_2e07f68aebfebab773f36d001c2c2292_16.jpg",
+      "price": 25.5,
+      "category": "Star Wars",
+      "description": "Hola Mundo",
+      "id": "d8f9bb9a-1490-4f19-9248-19f632e00766"
+    },
+    {
+      "name": "Xbox One",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_625268-MRD53933496640_022023-O.webp",
+      "price": 125.55,
+      "category": "Consolas",
+      "description": "Consola de Xbox ",
+      "id": "e479cf4b-c08f-42f4-8010-617ba61e57c6"
+    },
+    {
+      "name": "Mochila Asus ROG",
+      "imageUrl": "https://es.accessoires-asus.com/images/contenu/BP1500-img01-es.jpg",
+      "price": 120.35,
+      "category": "Diversos",
+      "description": "Mochila Asus ROG",
+      "id": "15cc75a0-5c32-4c60-9a6f-198f04c5d3f1"
+    },
+    {
+      "name": "Dark Vaider",
+      "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/collage_tall-ratios-blaster-door_48754ed2.jpeg?region=336,0,864,864",
+      "price": 200,
+      "category": "Star Wars",
+      "description": "Josue es el mas vacano de todos",
+      "id": "aca74b36-e606-46fb-ac4a-e12d2a20a614"
+    },
+    {
+      "name": "Nintendo Switch",
+      "imageUrl": "https://m.media-amazon.com/images/I/61i421VnFYL._AC_UF1000,1000_QL80_.jpg",
+      "price": 300.52,
+      "category": "Consolas",
+      "description": "Lo mejor",
+      "id": "1cea7a9b-3fce-4c98-a7dd-1b64eae4aedd"
+    },
+    {
+      "name": "Camiseta de Smash Bros",
+      "imageUrl": "https://1001camisetas.com/wp-content/uploads/2016/01/camisetas-videojuegos-nintento.jpg",
+      "price": 56.35,
+      "category": "Diversos",
+      "description": "La mejor camiseta",
+      "id": "043f5724-d50c-47e1-979d-aaaf9c919bc6"
+    }
+  ]
+}

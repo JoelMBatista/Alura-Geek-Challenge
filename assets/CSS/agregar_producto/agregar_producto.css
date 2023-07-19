@@ -1,0 +1,199 @@
+/* Parte del NAV Boton menu administrador */
+
+.btn_admin {
+    width: 166px;
+    height: 40px;
+    color: #2A7AE4;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 16.44px;
+    text-align: center;
+    background: none;
+    border: solid 1px #2A7AE4;
+    border-radius: 4px;
+}
+
+.btn_admin:hover{
+    cursor: pointer;
+}
+
+.agregar_producto{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.agregar_form{
+    margin: 0;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+ }
+ 
+ .agregar_title{
+    color: #464646;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+ }
+
+ .txt_url_image{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    width: 328px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px #C8C8C8;
+    padding-left: 10px;
+ }
+
+ .txt_categoria{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    width: 328px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px #C8C8C8;
+    padding-left: 10px;
+ }
+ 
+ .txt_nombre_producto{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    width: 328px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px #C8C8C8;
+    padding-left: 10px;
+ }
+
+ .txt_precio_producto{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    width: 328px;
+    height: 56px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: solid 1px #C8C8C8;
+    padding-left: 10px;
+ }
+
+ .txt_descripcion_producto{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    width: 328px;
+    height: 82px;
+    border: none;
+    border-bottom: solid 1px #C8C8C8;
+    padding-left: 10px;
+ }
+ 
+
+ 
+ .form_btn_agregar{
+    width: 343px;
+    height: 51px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 16.44px;
+    text-align:center;
+    background: #2A7AE4;
+    border: none;
+    border-radius: 4px;
+   margin-bottom: 20px;
+ }
+ 
+ .form_btn_agregar:hover{
+    cursor: pointer;
+ }
+
+ @media screen and (min-width: 768px) {
+
+
+ .txt_url_image{
+    width: 704px;
+    height: 56px;
+ }
+
+ .txt_categoria{
+    width: 704px;
+    height: 56px;
+ }
+ 
+ .txt_nombre_producto{
+    width: 704px;
+    height: 56px;
+ }
+
+ .txt_precio_producto{
+    width: 704px;
+    height: 56px;
+ }
+
+ .txt_descripcion_producto{
+    width: 704px;
+    height: 82px;
+ }
+ 
+
+ 
+ .form_btn_agregar{
+    width: 718px;
+    height: 56px;
+ }
+
+
+ }
+
+ @media screen and (min-width: 768px) {
+
+
+    .txt_url_image{
+       width: 559px;
+       height: 56px;
+    }
+   
+    .txt_categoria{
+        width: 559px;
+        height: 56px;
+    }
+    
+    .txt_nombre_producto{
+        width: 559px;
+        height: 56px;
+    }
+   
+    .txt_precio_producto{
+        width: 559px;
+        height: 56px;
+    }
+   
+    .txt_descripcion_producto{
+       width: 559px;
+       height: 82px;
+    }
+    
+   
+    
+    .form_btn_agregar{
+       width: 575px;
+       height: 56px;
+    }
+   
+   
+    }

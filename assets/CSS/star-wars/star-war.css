@@ -1,0 +1,96 @@
+.star_war{
+    margin: 40px 0;
+}
+
+.ver_producto{
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    color: #2A7AE4;
+    margin-bottom: 20px;
+}
+
+.star_war_ver_todo{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2A7AE4;
+    text-align: center;
+    
+
+}
+.star_war_ver_todo_span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    
+}
+
+.star_war_titulo{
+    font-weight: 700;
+    color: #464646;
+    font-size: 22px;
+}
+
+.star_war_elementos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+}
+
+.producto_precio{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 6px 0;
+    color: #464646;
+}
+
+.producto_descripcion{
+    margin-bottom: 0px;
+}
+
+.producto_image{
+    margin: 0 0 8px 0;
+    width: 156px;
+    height: 174px;
+}
+
+.lista_producto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .producto_image{
+       width: 164px;
+       height: 174px;
+    }
+
+    .lista_producto{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}   
+
+@media screen and (min-width: 1024px) {
+
+    .star_war{
+        width: 1136px;
+        height: 306px;
+    }
+    .producto_image{
+       width: 176px;
+       height: 174px;
+    }
+
+    .lista_producto{
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+

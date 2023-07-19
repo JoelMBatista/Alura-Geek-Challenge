@@ -1,0 +1,83 @@
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.login_title{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.login_email{
+    color: #A2A2A2;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #3b3b3b;
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+
+}
+
+.login_password{
+
+    color: #A2A2A2;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid #3b3b3b;
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+
+}
+
+.form_btn_enviar_login{
+    width: 118px;
+    height: 40px;
+    color: #FFFFFF;
+    font-family: Raleway, sans-serif;;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 16.44px;
+    text-align:center;
+    background: #2A7AE4;
+    border: none;
+    border-radius: 4px;
+   margin-bottom: 20px;
+}
+
+.form_btn_enviar_login:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    .login_title{
+        font-size: 18px;
+    }
+
+    .login_email{
+    
+        width: 390px;
+        height: 50px;
+    
+    }
+
+    .login_password{
+
+        width: 390px;
+        height: 50px;
+    
+    }
+
+    .form_btn_enviar_login{
+        font-size:18px;
+        width: 390px;
+        height: 50px;
+     
+    }
+}

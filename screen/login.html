@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura-Geek | Login</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!--Icon-->
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+
+    <!-- CSS only-->
+    <link rel="stylesheet" href="../assets/CSS/style.css">
+    <link rel="stylesheet" href="../assets/CSS/header.css">
+    <link rel="stylesheet" href="../assets/CSS/nav/nav.css">
+    <link rel="stylesheet" href="../assets/CSS/Login/login-section/login-section.css">
+    <link rel="stylesheet" href="../assets/CSS/Login/login-section/wrap-login.css">
+    <link rel="stylesheet" href="../assets/CSS/Login/login-section/login-form.css">
+    <link rel="stylesheet" href="../assets/CSS/footer/footer.css">
+    <link rel="stylesheet" href="../assets/CSS/footer/seccion-footer.css">
+    <link rel="stylesheet" href="../assets/CSS/form/contact-form.css">
+
+
+</head>
+
+<body>
+
+    <main>
+        <!--Section Header-->
+        <header class="header container">
+            <nav class="nav">
+                <div class="nav_Logo">
+                    <img src="../assets/img/Logo footer.png" alt="Logo Alura-Geek" class="nav_image">
+                </div>
+            </nav>
+
+        </header>
+
+        <!--Login Section-->
+        <section class="login__section">
+
+            <div class="wrap_login">
+
+
+                <form class="login_form" data-formLogin>
+                    <h1 class="login_title">Iniciar Sesión</h1>
+                    <input type="email" class="login_email" placeholder="Escriba su correo electrónico" data-email required>
+                    <input type="password" class="login_password" placeholder="Escriba su contraseña" data-password required>
+                    <button type="submit" class="form_btn_enviar_login">Entrar</button>
+
+                </form>
+
+                <div id="loginMessage"></div>
+
+            </div>
+
+        </section>
+
+        <!--Pie de pagina-->
+        <footer class="footer login">
+            <section class="seccion-footer container">
+                <nav class="menu-rodapie">
+                    <div class="elemento_imagen_footer">
+                        <img src="../assets/img/Logo footer.png" alt="" class="imagen_footer">
+                    </div>
+                    <ul class="lista_footer">
+                        <li class="lista_elemento"><a href="#" class="elemento">Quienes somos</a></li>
+                        <li class="lista_elemento"><a href="#" class="elemento">Política de privacidad</a></li>
+                        <li class="lista_elemento"><a href="#" class="elemento">Programa de fidelidad</a></li>
+                        <li class="lista_elemento"><a href="#" class="elemento">Nuestras tiendas</a></li>
+                        <li class="lista_elemento"><a href="#" class="elemento">Quiero ser franquiciado</a></li>
+                        <li class="lista_elemento"><a href="#" class="elemento">Anuncie aquí</a></li>
+                    </ul>
+                </nav>
+
+                <form action="submit" class="contact_form">
+                    <h1 class="form_title">Hable con nosotros</h1>
+                    <input type="text" class="txt_nombre" placeholder="Nombre">
+                    <input type="text" class="form_message" placeholder="Escribe tu mensaje">
+                    <button class="form_btn_enviar">Enviar mensaje</button>
+
+                </form>
+            </section>
+
+            <section class="seccion_footer_descripcion">
+                <div class="footer__descripcion">
+                    <p class="footer__details">Desarrollado Joel Manuel Matos Batista
+                        2023</p>
+                </div>
+
+            </section>
+        </footer>
+    </main>
+    <script type="module" src="../assets/JS/login.js"></script>
+</body>
+
+</html>

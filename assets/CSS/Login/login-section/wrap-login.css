@@ -1,0 +1,19 @@
+.wrap_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f4eeee98;
+    width: 275px;
+    height: 190px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #cfc2c2d5;
+}
+
+@media screen and (min-width: 1024px) {
+    .wrap_login {
+
+        width: 423px;
+        height: 291px;
+    }
+}

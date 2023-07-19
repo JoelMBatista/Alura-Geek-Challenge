@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura-Geek</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!--Icon-->
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+
+    <!-- CSS only-->
+    <link rel="stylesheet" href="../assets/CSS/style.css">
+    <link rel="stylesheet" href="../assets/CSS/header.css">
+    <link rel="stylesheet" href="../assets/CSS/nav/nav.css">
+    <link rel="stylesheet" href="../assets/CSS/banner/banner.css">
+    <link rel="stylesheet" href="../assets/CSS/star-wars/star-war.css">
+    <link rel="stylesheet" href="../assets/CSS/diversos/diversos.css">
+    <link rel="stylesheet" href="../assets/CSS/consolas/consolas.css">
+    <link rel="stylesheet" href="../assets/CSS/footer/footer.css">
+    <link rel="stylesheet" href="../assets/CSS/footer/seccion-footer.css">
+    <link rel="stylesheet" href="../assets/CSS/form/contact-form.css">
+    
+
+
+</head>
+
+<body>
+    <main class="main_index">
+        <!--Section Header-->
+        <header class="header container">
+
+            <nav class="nav">
+                <div class="nav_Logo">
+                    <img src="../assets/img/Logo footer.png" alt="Logo Alura-Geek" class="nav_image">
+                </div>
+
+                <div class="nav_btn">
+                    <button class="btn_login" id="btn_login">Login</button>
+
+                    <div class="search_bar">
+                        <input type="text" placeholder="¿Que deseas buscar?" class="txt_search">
+                    <button class="btn_search"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.4999 14H14.7099L14.4299 13.73C15.6299 12.33 16.2499 10.42 15.9099 8.39C15.4399 5.61 13.1199 3.39 10.3199 3.05C6.08989 2.53 2.52989 6.09 3.04989 10.32C3.38989 13.12 5.60989 15.44 8.38989 15.91C10.4199 16.25 12.3299 15.63 13.7299 14.43L13.9999 14.71V15.5L18.2499 19.75C18.6599 20.16 19.3299 20.16 19.7399 19.75C20.1499 19.34 20.1499 18.67 19.7399 18.26L15.4999 14ZM9.49989 14C7.00989 14 4.99989 11.99 4.99989 9.5C4.99989 7.01 7.00989 5 9.49989 5C11.9899 5 13.9999 7.01 13.9999 9.5C13.9999 11.99 11.9899 14 9.49989 14Z"
+                                fill="#464646" />
+                        </svg></button>
+
+                    </div>
+
+
+                </div>
+            </nav>
+
+        </header>
+        <!--Section Banner-->
+        <section class="banner">
+            <div class="banner_element container">
+                <h1 class="banner_h1">Febrero Promocional</h1>
+                <h3 class="banner_h3">Productos selecionados con 33% de descuento</h3>
+                <button class="banner_btn">Ver Consolas</button>
+            </div>
+        </section>
+
+        <!--Section Diversos-->
+        <section class="diversos container">
+
+            <div class="diversos_elementos">
+                <h1 class="diversos_titulo">Diversos</h1>
+            </div>
+
+            <div class="diversos_lista_producto" data-productoDiversos>
+
+            </div>
+
+        </section>
+
+
+        <!--Pie de pagina-->
+        <footer class="footer">
+            <section class="seccion-footer container">
+                <nav class="menu-rodapie">
+                    <div class="elemento_imagen_footer">
+                        <img src="../assets/img/Logo footer.png" alt="" class="imagen_footer">
+                    </div>
+                    <ul class="lista_footer">
+                        <li class="lista_elemento"><a href="#" class="elemento">Quienes somos</a></li>
+                        <li class="lista_elemento"><a href="#" class="elemento">Política de privacidad</a></li>
+                        <li class="lista_elemento"><a href="#" class="elemento">Programa de fidelidad</a></li>
+                        <li class="lista_elemento"><a href="#" class="elemento">Nuestras tiendas</a></li>
+                        <li class="lista_elemento"><a href="#" class="elemento">Quiero ser franquiciado</a></li>
+                        <li class="lista_elemento"><a href="#" class="elemento">Anuncie aquí</a></li>
+                    </ul>
+                </nav>
+
+                <form action="submit" class="contact_form">
+                    <h1 class="form_title">Hable con nosotros</h1>
+                    <input type="text" class="txt_nombre" placeholder="Nombre">
+                    <input type="text" class="form_message" placeholder="Escribe tu mensaje">
+                    <button class="form_btn_enviar">Enviar mensaje</button>
+
+                </form>
+            </section>
+
+            <section class="seccion_footer_descripcion">
+                <div class="footer__descripcion">
+                    <p class="footer__details">Desarrollado Joel Manuel Matos Batista
+                        2023</p>
+                </div>
+
+            </section>
+        </footer>
+
+    </main>
+    <script type="module" src="../controller/diverso-producto.js"></script>
+    <script type="module" src="../JS/index.js"></script>
+</body>
+
+</html>
