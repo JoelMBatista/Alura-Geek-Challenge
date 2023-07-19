@@ -14,7 +14,7 @@ loginForm.addEventListener('submit', function(event) {
   // Comprobamos si las credenciales son válidas (ejemplo)
   if (username === 'joelmatosb@outlook.com' && password === '1234') {
     // Credenciales válidas, mostramos dashboard
-    window.location.replace(".../screen/dashboard.html");
+    window.location.replace("../screen/dashboard.html");
   } else {
     // Credenciales inválidas, mostramos mensaje de error
  
