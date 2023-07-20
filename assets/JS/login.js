@@ -12,12 +12,12 @@ loginForm.addEventListener('submit', function(event) {
   const password = passwordElement.value;
 
   // Comprobamos si las credenciales son válidas (ejemplo)
-  if (username === 'joelmatosb@outlook.com' && password === '1234') {
+  if (username === 'joelmatosbatista@alura.com' && password === '1234') {
     // Credenciales válidas, mostramos dashboard
     window.location.replace("../screen/dashboard.html");
   } else {
+
     // Credenciales inválidas, mostramos mensaje de error
- 
     loginMessage.textContent = 'Credenciales inválidas';
     loginMessage.style.color = 'red';
     usernameElement.value = '';
