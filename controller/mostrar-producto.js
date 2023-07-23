@@ -1,4 +1,5 @@
 import {productServer} from "../servicios/producto-servicios.js";
+import { timeOut } from "../assets/JS/time-out.js";
 
 const createNewProduct = (id, name, imageUrl, price, category, description) => {
   const newCard = document.createElement("div");
@@ -59,10 +60,11 @@ productServer
 
   const logoutButton = document.getElementById('btn_dashboard');
 
-logoutButton.addEventListener('click', function() {
+logoutButton.addEventListener('click', async function() {
   // Limpiar datos de sesión
   sessionStorage.removeItem('isLoggedIn');
-  
+  timeOut.loading();
+  await timeOut.sleep(2000);
   // Redirigir a la página de inicio de sesión
   window.location.replace('../index.html');
 });

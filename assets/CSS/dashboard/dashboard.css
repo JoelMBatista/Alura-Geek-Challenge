@@ -24,6 +24,7 @@
     position: relative;
     display: inline-block;
     flex-direction: column;
+
 }
 
 .dashboard_producto_precio{
