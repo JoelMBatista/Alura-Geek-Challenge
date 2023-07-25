@@ -5,11 +5,13 @@
 }
 
 .seccion_footer_descripcion{
+    margin-top: 50px;
     height: 102px;
     background: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .menu-rodapie{
@@ -32,6 +34,15 @@
     height: 50px;
 }
 
+.insignias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.insignias img{
+    width: 100px;
+}
+
 @media screen and (min-width: 768px) {
 
     .seccion-footer{
@@ -43,6 +54,10 @@
     .lista_footer{
        
         text-align: left;
+    }
+
+    .seccion_footer_descripcion{
+        flex-direction: row;
     }
   
 }
